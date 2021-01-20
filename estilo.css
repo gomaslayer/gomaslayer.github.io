@@ -1,0 +1,264 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	color: grey11;
+}
+a:link, a:active, a:visited{
+	color: DarkRed;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.linha{
+	width: 1280px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 5px 0;
+	display: inline-block;
+}
+.coluna{
+	padding: 0 10px;
+	float: left;
+	display: inline-grid;
+}
+.col1{
+	width: 60px;
+}
+.col2{
+	width: 140px;
+}
+.col3{
+	width: 220px;
+}
+.col4{
+	width: 300px;
+}
+.col5{
+	width: 380px;
+}
+.col6{
+	width: 460px;
+}
+.col7{
+	width: 540px;
+}
+.col8{
+	width: 620px;
+}
+.col9{
+	width: 700px;
+}
+.col10{
+	width: 780px;
+}
+.col11{
+	width: 860px;
+}
+.col12{
+	width: 940px;
+}
+.col13{
+	width: 1040px;
+}
+.col14{
+	width: 1120px;
+}
+.col15{
+	width: 1200px;
+}
+.col16{
+	width: 1280px;
+}
+.header{
+	background: Black;
+	font-weight: bold;
+	border-radius: 24px;
+}
+ul.inline li, ol.inline li{
+	display: inline-block;
+	margin-right: 15px;
+}
+ul.inline li:last-child, ol.inline li:last-child{
+	margin-right: 1px;
+}
+ul.sem-marcador, ol.sem-marcador{
+	list-style: none;
+}
+.menu{
+	text-transform: capitalize;
+	text-align: right;	
+	margin-top: 15px;
+}
+.menu li a{
+	padding: 7px 10px;
+	border-radius: 10px;
+}
+.footer{
+	background-color: #708090;
+	color: #ebebeb;
+	padding: 15px 0px;
+	text-align: center;
+	font-weight: 700;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+.footer1{
+	background-color: #708090;
+	color: #ebebeb;
+	padding: 10px 0px;
+	text-align: center;
+	font-weight: 700;
+	width: 100%;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	border-radius: 5px;
+}
+p{
+	text-indent: 30px;
+	color: white;
+	text-align: justify;
+}
+.titulo h1{
+	font-family: 'Texturina', serif;
+	color: Gold;
+	text-align: center;
+}
+.conteudo{
+	background: rgba(184,134,11,0.5);
+	color: white;
+	text-indent: left;
+	border-radius: 50px;
+}
+.conteudo h1{
+	font-family: 'Texturina', serif;
+	color: DarkRed;
+	text-align: center;
+}
+.conteudo p{
+	font-family: 'Texturina', serif;
+	color: black;
+	font-weight: 700;
+}
+.logo img{
+	margin-left: 25px;
+}
+a.botao{;
+	padding: 10px 5px;
+	border-radius: 5px;
+	color: DarkRed;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin: 5px 0;
+	display: inline-block;
+	border: none;
+	font-family: 'Texturina', serif;
+	transition: 0.25;
+}
+a.botao:hover{
+	color: DarkRed;
+	text-decoration: underline;
+}
+label{
+	padding: 0;
+	margin-bottom: 0px;
+	display: block;
+	font-family: 'Texturina', serif;
+	font-weight: 700;
+	color: gold;
+}
+.box{
+	width: 300px;
+	padding: 40px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.box h2{
+	font-size: 40px;
+	color: Gold;
+	font-family: 'Texturina', serif;
+	font-weight: 700;
+	border-bottom: 4px solid;
+}
+.box input[type="text"], .box input[type = "password"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border-bottom: 2px solid;
+	padding: 14px 10px;
+	outline: none;
+	color: gold;
+	transition: 0.25s;
+	font-family: 'Texturina' , serif;
+	font-weight: bold;
+}
+.box input[type="text"]:focus, .box input[type = "password"]:focus{
+	width: 220px;
+	border-color: DarkRed;
+}
+.box input[type = "submit"]{
+	border: 0;
+	background: Goldenrod;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	padding: 14px 40px;
+	outline: none;
+	color: black;
+	border-radius: 15px;
+	transition: box-shadow	0.25s;
+	cursor: pointer;
+	font-family: 'Texturina', serif;
+	font-weight: 700;
+}
+.box input[type = "submit"]:hover, .box input[type = "submit"]:focus{
+	box-shadow: inset 0 0 1em #1C1C1C;
+}
+::-webkit-input-placeholder {
+   color: gold;
+}
+
+.videos video{
+	width: 100%;
+  	height: auto;
+  	margin: 0;
+  	display: block;
+  	position: relative;
+  	border-style: solid;
+  	border-color: red;	
+  	border-radius: 24px;
+}
+.videos p{
+	font-family: 'Texturina', serif;
+	color: DarkRed; 
+	font-weight: 700;
+}
+.titulo h2{
+	color: gold;
+	font-family: 'Texturina', serif;
+	letter-spacing: 1px;
+	margin-left: 300px;
+}
+table img{
+	border-radius: 50%;
+}
+thead{
+	background-color: Goldenrod;	
+}
+table, th, td{
+  border-collapse: collapse;
+  text-transform: capitalize;
+  padding: 6px 10px;
+  text-align: center;
+  color: DarkRed;
+  background-color: rgba(218,165,32,0.5);
+  border: 2px Goldenrod groove;
+  font-family: 'Texturina',serif;
+}
