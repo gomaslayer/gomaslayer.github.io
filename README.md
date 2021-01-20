@@ -1,1 +1,1 @@
-# https://gomaslayer.github.io
+# http://gomaslayer.github.io
