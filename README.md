@@ -1,2 +1,2 @@
-# https://gomaslayer.github.io/
+# gomaslayer.github.io/
 My personal website
